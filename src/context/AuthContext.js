@@ -2,7 +2,7 @@ import React, { createContext, useContext, useEffect, useState } from 'react';
 import axios from 'axios';
 
 axios.defaults.withCredentials = true;
-axios.defaults.baseURL = process.env.REACT_APP_API || 'http://localhost:4000';
+axios.defaults.baseURL = process.env.REACT_APP_API || 'https://jobseekerbackend-production.up.railway.app/';
 
 const AuthCtx = createContext(null);
 

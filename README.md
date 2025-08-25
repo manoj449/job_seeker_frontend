@@ -11,7 +11,7 @@ npm install
 ## 2. Configure
 Create `.env` file in `client` and set backend:
 ```
-REACT_APP_API=http://localhost:4000
+REACT_APP_API=https://jobseekerbackend-production.up.railway.app/
 ```
 
 ## 3. Run
